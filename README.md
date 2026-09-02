@@ -5,7 +5,7 @@ Repositório com exercícios e os projetos desenvolvidos para a Atividade Acadê
 
 📂 Estrutura do Repositório
 
-> Esta seção deve ser atualizada a cada projeto entregue, com suas respectivas tecnologias e descrições resumidas. Exemplo:
+> Esta seção será atualizada a cada projeto entregue, com suas respectivas tecnologias e descrições resumidas. 
 
 | Projeto                 | Engine / Linguagem | Descrição breve                             |
 | ----------------------- | ------------------ | ------------------------------------------- |
