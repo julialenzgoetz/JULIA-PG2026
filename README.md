@@ -1,7 +1,8 @@
 # JULIA-PG2026
-Repositório com exercícios e os projetos desenvolvidos para a Atividade Acadêmica **Processamento Gráfico: Fundamentos**, parte do curso de graduação em **Engenharia Biomédica da Unisinos**.
+Repositório com exercícios e os projetos desenvolvidos para a Atividade Acadêmica **Processamento Gráfico: Fundamentos**, cursada no segundo semestre de 2026.
 
-👤 **Nome Completo:** Julia Lenz Goetz
+👤 **Nome:** Julia Lenz Goetz
+🎓 **Curso:** Engenharia Biomédica — Unisinos
 
 📂 Estrutura do Repositório
 
