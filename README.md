@@ -2,6 +2,7 @@
 Repositório com exercícios e os projetos desenvolvidos para a Atividade Acadêmica **Processamento Gráfico: Fundamentos**, cursada no segundo semestre de 2026.
 
 👤 **Nome:** Julia Lenz Goetz
+
 🎓 **Curso:** Engenharia Biomédica — Unisinos
 
 📂 Estrutura do Repositório
