@@ -2,7 +2,7 @@
 
 Protótipo de jogo 2D para **Processamento Gráfico: Fundamentos — Grau A**.
 Um cachorro caramelo corre pelo parque, coleta petiscos e pula troncos, pedras e poças.
-Desenvolvido em **C++17 com OpenGL 3.3 Core**, shaders GLSL, GLFW, GLAD e GLM.
+Desenvolvido em **C++ com OpenGL 3.3 Core**, shaders GLSL, GLFW, GLAD e GLM.
 
 ![Menu do jogo](docs/images/menu.png)
 
