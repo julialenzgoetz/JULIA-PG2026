@@ -99,23 +99,4 @@ As hitboxes foram ajustadas para o personagem incluído. Se a silhueta mudar, aj
 Som não foi incluído nesta primeira versão; é opcional no enunciado.
 Antes de enviar, confira as instruções de formato e envio disponibilizadas no Moodle.
 
-## 🧪 Testes
-
-Depois de compilar:
-
-```bash
-ctest --test-dir build -C Release --output-on-failure
-```
-
-Para uma execução gráfica automática de 10 segundos simulados:
-
-```bash
-./build/PatinhasEmMissao --smoke-test --frames 1200
-```
-
-No Windows, use o caminho do executável gerado, como `build\Release\PatinhasEmMissao.exe`.
-A opção `--smoke-test` ativa um jogador automático para validação; não é necessária para jogar.
-
-Se aparecer “arquivo ausente”, abra o jogo pelo `JOGAR.bat` ou use `--assets` com a pasta que contém `assets`, `config` e `shaders`.
-Se falhar a criação de contexto OpenGL, confira o driver da placa de vídeo. O terminal mantém a mensagem de erro para diagnóstico.
 
