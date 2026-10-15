@@ -1,7 +1,6 @@
 # 🐾 Roteiro de apresentação — Patinhas em Missão
 
-Este roteiro acompanha o código entregue. Use-o para estudar e explicar as decisões com suas próprias palavras.
-Comece demonstrando uma partida e use **H** para mostrar as caixas de colisão.
+Este roteiro acompanha o código entregue. 
 
 ## 1. Proposta e funcionamento
 
@@ -182,17 +181,6 @@ As imagens são carregadas uma vez. Texturas, buffers e programa de shader são 
 
 O texto da interface usa um atlas pré-gerado da fonte DejaVu Sans Bold. Não exige FreeType em tempo de execução.
 Som e armazenamento permanente de recorde ficam como possíveis melhorias.
-
-## 10. Sequência sugerida para apresentar
-
-1. Abra uma partida e demonstre coleta, pulo e dano.
-2. Ative H para explicar AABB.
-3. Pause e mostre a organização em `main`, `Game` e `Renderer`.
-4. Mostre os vértices do quad, os índices e os dois atributos no VBO.
-5. Abra os shaders e explique `projection`, `model`, `uvRect` e alfa.
-6. Abra a spritesheet do cachorro e associe os índices às poses.
-7. Explique os fatores de parallax e as duas cópias de cada camada.
-8. Mostre `game.cfg` e encerre com a tela de game over/reinício.
 
 ## Referências usadas
 
