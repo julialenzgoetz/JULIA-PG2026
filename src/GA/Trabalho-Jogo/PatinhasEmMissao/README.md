@@ -17,9 +17,6 @@ Para usar essa versão, não é necessário instalar compilador, Python ou bibli
 Mantenha as pastas `assets`, `config` e `shaders` junto ao projeto.
 O computador precisa de driver gráfico com suporte a OpenGL 3.3 ou superior.
 
-O executável foi compilado para Windows, mas não foi executado em uma sessão Windows nesta preparação.
-A lógica e a renderização foram verificadas em Linux com OpenGL por software. Veja [VALIDACAO.md](docs/VALIDACAO.md).
-
 ## 🎮 Controles
 
 | Tecla | Ação |
