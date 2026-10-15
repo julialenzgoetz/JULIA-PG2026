@@ -10,7 +10,7 @@ Desenvolvido em **C++ com OpenGL 3.3 Core**, shaders GLSL, GLFW, GLAD e GLM.
 
 1. **Extraia toda a pasta do ZIP**. Não execute de dentro do arquivo compactado.
 2. Abra **JOGAR.bat**.
-3. Pressione **Enter** para começar e **Espaço** para pular.
+3. Pressione **Enter** para começar o jogo.
 
 O pacote inclui `bin/Windows/PatinhasEmMissao.exe`, compilado para Windows 64 bits.
 Para usar essa versão, não é necessário instalar compilador, Python ou bibliotecas de desenvolvimento.
