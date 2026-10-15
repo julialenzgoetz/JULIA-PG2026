@@ -47,7 +47,8 @@ O botão desenhado no menu indica o comando de teclado; esta versão não usa cl
 ![Uma partida](docs/images/play.png)
 
 
-## 📂 Organização
+## 📂 Organização e Funcionamento do Código
+O programa repete três etapas: receber comandos, atualizar as regras e desenhar a cena.
 
 | Arquivo/pasta | Função |
 |---|---|
@@ -98,5 +99,28 @@ As hitboxes foram ajustadas para o personagem incluído. Se a silhueta mudar, aj
 
 Som não foi incluído nesta primeira versão; é opcional no enunciado.
 Antes de enviar, confira as instruções de formato e envio disponibilizadas no Moodle.
+
+## 🛠️ Funcionamento do código
+
+O programa repete três etapas: **receber comandos, atualizar as regras e desenhar a cena**.
+
+| Arquivo ou pasta | Responsabilidade |
+|---|---|
+| `src/main.cpp` | Cria a janela e coordena teclado, tempo e ciclo principal. |
+| `src/Game.hpp` e `src/Game.cpp` | Guardam os dados e controlam pulo, movimento, colisões, vidas e pontuação. |
+| `src/Renderer.hpp` e `src/Renderer.cpp` | Desenham cenário, personagem, objetos e interface. |
+| `assets/` | Armazena imagens do personagem, itens e cenário. |
+| `shaders/` | Contém os programas gráficos que posicionam os vértices e calculam as cores. |
+| `config/game.cfg` | Define parâmetros como velocidade, vidas, gravidade e animação. |
+
+## 🎨 Recursos gráficos
+
+- 🖼️ **Sprites:** imagens 2D aplicadas sobre um retângulo formado por dois triângulos. O VBO armazena os vértices, o EBO guarda os índices e o VAO registra a configuração dos atributos.
+- 🎞️ **Animação:** diferentes recortes de uma mesma imagem, chamada *spritesheet*, representam a corrida e as poses de salto do cachorro.
+- 📦 **Colisões AABB:** caixas retangulares detectam contato quando se sobrepõem nos eixos horizontal e vertical. A tecla **H** permite visualizá-las.
+- 🌳 **Parallax:** céu, colinas, árvores e chão formam camadas. O céu fica parado; as demais se deslocam em velocidades diferentes para criar sensação de profundidade.
+
+Além de OpenGL, o projeto utiliza **GLFW**, **GLAD**, **GLM** e **stb_image** para janela e entrada, acesso às funções gráficas, operações matemáticas e carregamento de imagens.
+
 
 
