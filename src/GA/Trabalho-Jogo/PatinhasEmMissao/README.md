@@ -46,65 +46,6 @@ O botão desenhado no menu indica o comando de teclado; esta versão não usa cl
 
 ![Uma partida](docs/images/play.png)
 
-## 🛠️ Compilar e editar
-
-Para modificar o código, abra a **pasta inteira** no Visual Studio ou VS Code.
-O arquivo `src/main.cpp` tem a inicialização e o laço principal comentados por etapas.
-As regras estão em `src/Game.cpp`, e o desenho está em `src/Renderer.cpp`.
-
-### Windows — Visual Studio
-
-Instale o Visual Studio com o componente **Desenvolvimento para desktop com C++** e as ferramentas de CMake.
-Também é possível usar o CMake instalado separadamente e o compilador do Visual Studio.
-Abra um terminal de desenvolvimento do Visual Studio na pasta do projeto e execute:
-
-```powershell
-cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
-cmake --build build --config Release --parallel 4
-.\build\Release\PatinhasEmMissao.exe --assets .
-```
-
-O script **COMPILAR_WINDOWS.bat** executa a configuração, a compilação e abre a versão recém-compilada.
-O VS Code é um editor: ele precisa de um compilador C++ e CMake instalados para compilar.
-
-### Windows — MinGW
-
-Com MinGW-w64 e CMake disponíveis no terminal:
-
-```powershell
-cmake -S . -B build-mingw -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release
-cmake --build build-mingw --parallel 4
-.\build-mingw\PatinhasEmMissao.exe --assets .
-```
-
-Use uma pasta de build diferente para cada compilador ou gerador CMake.
-Se usa Ninja, substitua `-G "MinGW Makefiles"` por `-G Ninja`.
-
-### Linux
-
-Em Ubuntu/Debian, instale as ferramentas de compilação e os cabeçalhos X11 necessários ao GLFW:
-
-```bash
-sudo apt install build-essential cmake libx11-dev libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev
-cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
-cmake --build build --parallel 4
-./build/PatinhasEmMissao --assets .
-```
-
-### macOS
-
-Com as Command Line Tools do Xcode e CMake instalados:
-
-```bash
-cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
-cmake --build build --parallel 4
-./build/PatinhasEmMissao --assets .
-```
-
-A configuração de macOS está prevista no código, mas não foi validada nesta entrega.
-
-**As bibliotecas de terceiros estão incluídas em `third_party`: o CMake não baixa dependências.**
-Não é necessário executar o script Python de autoria de imagens para compilar ou jogar.
 
 ## 📂 Organização
 
