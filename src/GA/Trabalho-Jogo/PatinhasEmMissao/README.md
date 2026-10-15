@@ -35,14 +35,14 @@ O botão desenhado no menu indica o comando de teclado; esta versão não usa cl
 
 ## 🍖 Regras
 
-- Cada petisco vale **10 pontos**.
-- A distância também pontua: cada 50 unidades do mundo virtual valem 1 ponto e são apresentadas como 1 metro fictício.
-- Você começa com **3 vidas**; encostar em um obstáculo retira uma vida.
-- Depois do impacto, o cachorro pisca e fica **1,35 segundo invulnerável**.
-- A velocidade aumenta aos poucos, de 310 até 560 unidades por segundo.
+- A partida começa com 3 vidas. ❤️❤️❤️
+- Cada petisco vale **10 pontos**; a distância percorrida também aumenta a pontuação. 🦴
+- Colidir com um obstáculo retira uma vida. Após o impacto, o cachorro pisca e fica temporariamente protegido contra novos danos. 💥
+- A velocidade aumenta gradualmente, tornando a partida mais difícil. ⚡
 - Os obstáculos são separados por um intervalo que permite concluir o salto.
-- Ao perder todas as vidas, aparece a tela de fim de partida.
-- O recorde é mantido **durante a sessão** e é zerado ao fechar o programa.
+- O salto é controlado por velocidade vertical e gravidade. Um novo salto só ocorre quando o cachorro está no chão. ⬆️
+- Ao perder todas as vidas, aparece a tela de fim de partida, com a opção de reiniciar. 🏁
+- O recorde é mantido **durante a sessão** e é zerado ao fechar o programa.🏆
 
 ![Uma partida](docs/images/play.png)
 
