@@ -15,7 +15,6 @@ Os materiais da disciplina e o enunciado orientaram a implementação de matrize
 | GLM 1.0.1 | https://github.com/g-truc/glm/tree/1.0.1 | Licenciamento descrito em `third_party/glm/LICENSE.txt` |
 | GLAD, loader OpenGL | Arquivos distribuídos em https://github.com/JoeyDeVries/LearnOpenGL | Licença do gerador e termos dos arquivos em `third_party/glad` |
 | Khronos khrplatform.h | Distribuído com o loader | Licença incluída no cabeçalho |
-| stb_image | https://github.com/nothings/stb/tree/f58f558c120e9b32c217290b80bad1a0729fbb2c3 | Domínio público/MIT; termos ao final do cabeçalho |
 | DejaVu Sans Bold | DejaVu Fonts | `third_party/font/LICENSE.txt` |
 
 GLAD foi obtido como código pré-gerado nos caminhos `includes/glad/glad.h`, `includes/KHR/khrplatform.h`
