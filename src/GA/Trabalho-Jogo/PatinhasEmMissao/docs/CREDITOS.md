@@ -28,4 +28,4 @@ e `src/glad.c` do LearnOpenGL. O jogo solicita um contexto 3.3 e usa apenas os r
 - Texto: atlas gerado da fonte DejaVu Sans Bold por Pillow.
 - Capturas em `docs/images`: produzidas pelo próprio renderizador OpenGL do jogo.
 
-Não foi usada uma fotografia como referência do cachorro. O personagem é um caramelo fictício, sem pretensão de reproduzir o Vitório.
+Não foi usada uma fotografia como referência do cachorro. O personagem é um caramelo fictício.
