@@ -6,7 +6,8 @@ Desenvolvido em **C++ com OpenGL 3.3 Core**, shaders GLSL, GLFW, GLAD e GLM.
 
 ![Menu do jogo](docs/images/menu.png)
 
-## 🔴 Link Video Explicativo (YouTube)
+## 🔴 Link (YouTube)
+Vídeo que contempla a explicação do jogo em vídeo:
 https://youtu.be/5KTAmM1TSek
 
 ## ▶️ Jogar no Windows
